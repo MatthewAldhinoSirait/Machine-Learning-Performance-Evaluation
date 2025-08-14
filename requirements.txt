@@ -1,9 +1,9 @@
-## Library untuk Aplikasi (app.py)
+Library untuk Aplikasi (app.py)
 1. streamlit – untuk membuat antarmuka web interaktif
 2. pandas – untuk membuat dan mengolah DataFrame input pengguna
 3. pycaret (modul classification) – untuk memuat dan menjalankan model (load_model, predict)
 
-## Library untuk Training (pertemuan_5.py)
+Library untuk Training (pertemuan_5.py)
 1. pandas – untuk data handling
 2. numpy – untuk operasi numerik dan imputasi data
 3. scikit-learn
