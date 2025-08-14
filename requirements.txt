@@ -1,7 +1,15 @@
-streamlit
-pandas
-pycaret
-imbalanced-learn
-scikit-learn
-numpy
-kagglehub
+Library untuk Aplikasi (app.py)
+1. streamlit – untuk membuat antarmuka web interaktif
+2. pandas – untuk membuat dan mengolah DataFrame input pengguna
+3. pycaret (modul classification) – untuk memuat dan menjalankan model (load_model, predict)
+
+Library untuk Training (pertemuan_5.py)
+1. pandas – untuk data handling
+2. numpy – untuk operasi numerik dan imputasi data
+3. scikit-learn
+- StandardScaler untuk normalisasi data
+- train_test_split untuk membagi data
+- SelectKBest, f_classif untuk feature selection
+4. imbalanced-learn – SMOTE untuk menangani imbalance pada data
+5. pycaret.classification – setup, compare_models, tune_model, save_model
+6. kagglehub (opsional) – untuk mengunduh dataset jika tidak ada file lokal
